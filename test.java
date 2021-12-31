@@ -118,7 +118,7 @@ public class test extends javax.swing.JFrame {
                 {
                     int c = rs.getInt("Hour");
                     int d = c+1;
-                    res.setText("Hour of the day when the the calls are longest from "+c+" to"+d+" hours.");
+                    res.setText("Hour of the day when the the calls are longest from "+c+":00 to"+d+":00 hours.");
                 }
                 rs.close();
                 stmt.close();
@@ -132,7 +132,7 @@ public class test extends javax.swing.JFrame {
                 {
                     int c = rs.getInt("Hour");
                     int d = c+1;
-                    res.setText("Hour of the day when the call volume is highest is from "+c+" to"+d+" hours.");
+                    res.setText("Hour of the day when the call volume is highest is from "+c+":00 to"+d+":00 hours.");
                 }
                 rs.close();
                 stmt.close();
